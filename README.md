@@ -1,4 +1,4 @@
-📘 Smart LMS – Agentic Learning Management System
+<img width="1024" height="1536" alt="ChatGPT Image Nov 14, 2025, 01_59_23 PM" src="https://github.com/user-attachments/assets/8cce436d-d0ac-4dc3-8588-583275e248ba" />📘 Smart LMS – Agentic Learning Management System
 
 An AI-powered LMS that uses multiple autonomous AI agents to improve learning with automated summaries, quizzes, mentoring suggestions, and progress tracking.
 
@@ -45,43 +45,7 @@ Tracks topics learned and quiz scores
 
 Displays structured progress data
 
-📂 Project Structure
-AI/
-│── Backend/
-│   ├── controllers/
-│   │   ├── tutorController.js
-│   │   ├── quizController.js
-│   │   ├── mentorController.js
-│   │   └── progressController.js
-│   ├── models/
-│   │   ├── UserProgress.js
-│   │   ├── UploadedFile.js
-│   │   └── QuizResult.js
-│   ├── routes/
-│   │   ├── tutor.js
-│   │   ├── quiz.js
-│   │   ├── mentor.js
-│   │   └── progress.js
-│   ├── utils/pdfReader.js
-│   ├── uploads/  (uploaded PDFs)
-│   ├── server.js
-│   ├── package.json
-│   └── .env
-│
-└── Frontend/
-    ├── src/
-    │   ├── components/
-    │   │   ├── PdfUploader.jsx
-    │   │   ├── QuizGenerator.jsx
-    │   │   ├── MentorSuggestions.jsx
-    │   │   └── ProgressDashboard.jsx
-    │   ├── App.jsx
-    │   ├── api.js
-    │   ├── main.jsx
-    │   └── style.css
-    ├── vite.config.js
-    ├── index.html
-    └── package.json
+
 
 🔧 Backend Setup
 1️⃣ Install Dependencies
