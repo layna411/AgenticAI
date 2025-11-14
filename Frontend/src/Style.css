@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7fb;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(30, 30, 60, 0.06);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+pre {
+  background: #eef;
+  padding: 12px;
+  white-space: pre-wrap;
+}
